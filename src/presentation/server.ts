@@ -20,14 +20,17 @@ export class Server {
     console.log( 'Server started...' );
 
     //todo: Mandar email
-    // new SendEmailLogs(
-    //   emailService, 
-    //   fileSystemLogRepository,
-    // ).execute(
-    //   ['fernando.herrera85@gmail.com','fernando.herrera.cr@gmail.com']
-    // )
+
+    new SendEmailLogs(
+      emailService, 
+      fileSystemLogRepository,
+    ).execute(
+      ['oclemente.dscont@gmail.com','pruebas1.dscont@gmail.com']
+    );
+    
+
     // emailService.sendEmailWithFileSystemLogs(
-    //   ['fernando.herrera85@gmail.com','fernando.herrera.cr@gmail.com']
+    //   ['oclemente.dscont@gmail.com','pruebas1.dscont@gmail.com']
     // );
     
     
