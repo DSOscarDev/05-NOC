@@ -21,12 +21,12 @@ export class Server {
 
     //todo: Mandar email
 
-    new SendEmailLogs(
-      emailService, 
-      fileSystemLogRepository,
-    ).execute(
-      ['oclemente.dscont@gmail.com','pruebas1.dscont@gmail.com']
-    );
+    // new SendEmailLogs(
+    //   emailService, 
+    //   fileSystemLogRepository,
+    // ).execute(
+    //   ['oclemente.dscont@gmail.com','pruebas1.dscont@gmail.com']
+    // );
     
 
     // emailService.sendEmailWithFileSystemLogs(

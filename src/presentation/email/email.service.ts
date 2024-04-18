@@ -34,7 +34,6 @@ export class EmailService {
 
 
     try {
-
       const sentInformation = await this.transporter.sendMail( {
         to: to,
         subject: subject,
